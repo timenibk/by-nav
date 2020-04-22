@@ -9,3 +9,9 @@
 TODO：
 - [ ] 网址带json地址参数访问（便于放一些不方便展示或杂乱的网页）；
 - [ ] json网页可视化编辑页面（便于需要增加页面但不想手动编辑）
+
+# 说明
+
+json中分类标题icon来自字体图标库[themify-icons](https://themify.me/themify-icons)；
+logo是我一分钟随手画的，应该没有侵权问题  吧。
+.vscode文件夹是用vscode调试自动生成的，可以无视。
