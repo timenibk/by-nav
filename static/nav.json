@@ -98,6 +98,11 @@
 		"desc": "苹果在线存储和云服务",
 		"logo": "http://chuangzaoshi.com/assets/images/P/icloud.png"
 	}, {
+		"name": "文叔叔",
+		"href": "https://www.wenshushu.cn/",
+		"desc": "大文件即时传输，新晋优秀网盘",
+		"logo": "https://www.wenshushu.cn/favicon.ico"
+	},  {
 		"name": "微云",
 		"href": "https://www.weiyun.com/",
 		"desc": "腾讯QQ网盘服务",
