@@ -13,7 +13,7 @@
 ### 现已支持带自定义参数访问，参数格式如下：
 http(s)://(url)/?p=(自定义json地址)&f=(自定义json分组)
 页面示例：
-![截图](/screenshot/0.png)
+![截图](/screenshot/02.png)
 
 #### 自定义json结构（与原始json基本一致，删除desc简介，增加filter分组）：
 ```json
