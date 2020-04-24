@@ -8,12 +8,12 @@
 
 页面截图：
 
-![avatar](https://imgchr.com/i/JDnXng)
+![截图](/screenshot/01.png)
 
 ### 现已支持带自定义参数访问，参数格式如下：
 http(s)://(url)/?p=(自定义json地址)&f=(自定义json分组)
 页面示例：
-![avatar](https://imgchr.com/i/JDurDg)
+![截图](/screenshot/0.png)
 
 #### 自定义json结构（与原始json基本一致，删除desc简介，增加filter分组）：
 ```json
