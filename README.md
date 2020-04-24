@@ -20,11 +20,11 @@ http(s)://(url)/?p=(自定义json地址)&f=(自定义json分组)
     [{
     "_id": "", //分类简称
 	"classify": "", //分类名称
-	"icon": "", //分类图标 基于themify-icons
+    "icon": "", //分类图标 基于themify-icons
+    "filter": "",//分类筛选
 	"sites": [{
 		"name": "", //网站名
 		"href": "",//网站链接
-		"filter": "",//网站分类
 		"logo": "" //网站logo
         }]
     }]
