@@ -1,3 +1,14 @@
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+
 $(function(){ 
     $.getJSON("static/nav.json",function(data){ //获取数据并填充页面
       var strHtml = "";
@@ -5,7 +16,7 @@ $(function(){
         var navstr =  "";
         var navtitle = "";
         strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "</a></li>" ;
-        navtitle += "<div class='box'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><i class='iconfont icon-movie'></i>" + info["classify"] +"</div> </div><div>";
+        navtitle += "<div class='box'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><span class='"  + info["icon"] + "'></span>" + info["classify"] +"</div> </div><div>";
         $.each(info["sites"],function(i,str){
           if (str["logo"] == "no-logo"){
             str["logo"]="static/logo.svg";
@@ -22,7 +33,63 @@ $(function(){
       }) 
       $("#navItem").append(strHtml);//创建左侧导航栏
     }) 
-  
+    
+
+    //渲染自定义模块
+    if (getQueryVariable('p') != ""){
+        $.getJSON(getQueryVariable('p'),function(data){ //获取自定义数据并填充页面
+        var f = getQueryVariable('f')
+        var strHtml = "";
+        if(f != ""){
+          var model = data.filter(function (e) { return e.filter == f; });
+          console.log(model);
+          $.each(model,function(infoIndex,info){  
+            var navstr =  "";
+            var navtitle = "";
+            strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "[自定义]</a></li>" ;
+            navtitle += "<div class='box box_user'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><i class='"  + info["icon"] + "'></i>" + info["classify"] +"[自定义]</div> </div><div>";
+            $.each(info["sites"],function(i,str){
+              if (str["logo"] == "no-logo"){
+                str["logo"]="static/logo.svg";
+              }
+              navstr += '<a target="_blank" href="' + str["href"]+ '">';
+              navstr += '<div class="item item_user">';
+              navstr += '    <div class="logo">'
+              navstr +='       <img src="' + str["logo"] + '">' + str["name"] + ' </div>';
+              // navstr +='   <div class="desc">'+ str["desc"] + '</div>';
+              navstr += '</div>      </a>';
+            })
+            navstr = navtitle + navstr + '</div>';
+            $(".about").after(navstr);//插入自定义内容
+          })
+        }
+        else{
+          $.each(data,function(infoIndex,info){  
+
+            var navstr =  "";
+            var navtitle = "";
+            strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "[自定义]</a></li>" ;
+            navtitle += "<div class='box box_user'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><i class='"  + info["icon"] + "'></i>" + info["classify"] +"[自定义]</div> </div><div>";
+            $.each(info["sites"],function(i,str){
+              if (str["logo"] == "no-logo"){
+                str["logo"]="static/logo.svg";
+              }
+              navstr += '<a target="_blank" href="' + str["href"]+ '">';
+              navstr += '<div class="item item_user">';
+              navstr += '    <div class="logo">'
+              navstr +='       <img src="' + str["logo"] + '">' + str["name"] + ' </div>';
+              //navstr +='   <div class="desc">'+ str["desc"] + '</div>';
+              navstr += '</div>      </a>';
+            })
+            navstr = navtitle + navstr + '</div>';
+            $(".about").after(navstr);//插入自定义内容
+          }) 
+        }
+        
+        $("#navItem").prepend(strHtml);//插入左侧自定义导航栏
+      })
+
+    }
     //導航欄滑動定位
     var href = "";
     var pos = "";

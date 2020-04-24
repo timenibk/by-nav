@@ -190,6 +190,10 @@ body,
   background: #fff;
   padding-bottom: 20px;
 }
+
+.main .box_user{
+background:#bcbcbc;
+}
 .main .box .sub-category > div {
   padding: 12px 0 0 2.1%;
   font-size: 18px;
@@ -206,6 +210,11 @@ body,
   float: left;
   overflow: hidden;
   transition: all .3s;
+}
+
+.main .box .item_user {
+  background:#bcbcbc;
+  box-shadow: 1px 2px 3px #4d4d4d;
 }
 .main .box .item:hover {
   transform: translateY(-5px);
