@@ -42,7 +42,6 @@ $(function(){
         var strHtml = "";
         if(f != ""){
           var model = data.filter(function (e) { return e.filter == f; });
-          console.log(model);
           $.each(model,function(infoIndex,info){  
             var navstr =  "";
             var navtitle = "";
@@ -104,44 +103,45 @@ $(function(){
       href = $(this).children().attr("href");
       pos = $(href).position().top - 30;
       console.log($(href));
-      $("html,body").animate({ scrollTop: pos }, 500);
-
-      //導航欄手機端隱藏
-      var oMenu = document.getElementById('menu');
-      var oBtn = oMenu.getElementsByTagName('a')[0];
-      var oLeftBar = document.getElementById('leftBar');
-      oBtn.onclick = function () {
-          if (oLeftBar.offsetLeft == 0) {
-              oLeftBar.style.left = -249 + 'px';
-          } else {
-              oLeftBar.style.left = 0 + 'px';
-          }
-          if (document.documentElement.clientWidth <= 600) {
-              document.onclick = function () {
-                  if (oLeftBar.offsetLeft == 0) {
-                      oLeftBar.style.left = -249 + 'px';
-                  }
-              }
-          }
-      }   
-      
-      //滑动到顶部
-      $(window).scroll(function () {
-          if ($(window).scrollTop() >= 200) {
-              $('#fixedBar').fadeIn(300);
-          } else {
-              $('#fixedBar').fadeOut(300);
-          }
-      });
-      $('#fixedBar').click(function () {
-          $('html,body').animate({
-              scrollTop: '0px'
-          }, 800);
-      })
-
-    });
-  
-
-  
-  
+      $("html,body").animate({ scrollTop: pos }, 500);      
 }) 
+
+//導航欄手機端隱藏
+var oMenu = document.getElementById('menu');
+var oBtn = oMenu.getElementsByTagName('a')[0];
+var oLeftBar = document.getElementById('leftBar');
+console.log
+oBtn.onclick = function(){
+  console.log("00");
+    if (oLeftBar.offsetLeft == 0) {
+        oLeftBar.style.left = -249 + 'px';
+    } else {
+        oLeftBar.style.left = 0 + 'px';
+    }
+    if (document.documentElement.clientWidth <= 600) {
+        document.onclick = function () {
+            if (oLeftBar.offsetLeft == 0) {
+                oLeftBar.style.left = -249 + 'px';
+            }
+        }
+    }
+}   
+
+//滑动到顶部
+$(window).scroll(function () {
+    if ($(window).scrollTop() >= 200) {
+        $('#fixedBar').fadeIn(300);
+    } else {
+        $('#fixedBar').fadeOut(300);
+    }
+});
+$('#fixedBar').click(function () {
+    $('html,body').animate({
+        scrollTop: '0px'
+    }, 800);
+})
+
+});
+
+
+
