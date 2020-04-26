@@ -36,13 +36,15 @@ http(s)://(url)/?p=(自定义json地址)&f=(自定义json分组)
 
 #### 自定义参数地址跨域说明
 如果使用别人搭建或本地调试页面，自定义url与导航页url不在同一个域名下，必须对自定义url开启允许跨域访问；
-阿里云OSS开启跨域访问教程参考地址：
+- 托管在github上的json可以直接获取raw地址进行引用；
+- 阿里云OSS开启跨域访问教程参考地址：
 [https://help.aliyun.com/document_detail/31903.html?spm=a2c4g.11186623.2.15.3724c451vMxt3K#concept-pbw-4df-vdb]
-其中来源 与header必填，不知道怎么填的直接*号，methods允许get与head；
+其中 来源 与 header 必填，不知道怎么填的直接*号，methods允许get与head；
 
 
 TODO：
-- [x] 网址带json地址参数访问（便于放一些不方便展示或杂乱的网页）；
+- [x] 网址带json地址参数访问（便于放一些不方便展示或按需求展示）；
+
 - [ ] json网页可视化编辑页面（便于需要增加页面但不想手动编辑）；
 
 # 其他说明 

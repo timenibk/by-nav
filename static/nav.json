@@ -203,30 +203,20 @@
 		"desc": "阿里人工智能电商Banner广告图制作",
 		"logo": "http://chuangzaoshi.com/assets/images/D/luban.png"
 	}, {
-		"name": "CloudConvert",
-		"href": "https://cloudconvert.org/",
-		"desc": "云端在线图片格式转换",
-		"logo": "http://chuangzaoshi.com/assets/images/D/cloudconvert.png"
-	}, {
 		"name": "TinyPng",
 		"href": "https://tinypng.com/",
 		"desc": "超完美PNG压缩工具",
 		"logo": "http://chuangzaoshi.com/assets/images/D/tinypng.png"
-	}, {
-		"name": "FindMyfont",
-		"href": "http://www.myfonts.com/WhatTheFont/",
-		"desc": "英文上传图片查找字体",
-		"logo": "http://chuangzaoshi.com/assets/images/D/myfonts.png"
 	}, {
 		"name": "qiuziti",
 		"href": "http://www.qiuziti.com/",
 		"desc": "中文上传图片字体查找",
 		"logo": "http://chuangzaoshi.com/assets/images/D/qiuziti.png"
 	}, {
-		"name": "PxCook",
-		"href": "http://fancynode.com.cn/pxcook",
-		"desc": "高效易用的自动标注工具",
-		"logo": "http://chuangzaoshi.com/assets/images/D/pxcook.png"
+		"name": "稿定设计",
+		"href": "https://www.gaoding.com/",
+		"desc": "在线设计工具，包含在线抠图",
+		"logo": "https://www.gaoding.com/favicon.ico"
 	}, {
 		"name": "Jpegmini",
 		"href": "http://www.jpegmini.com/",
@@ -238,11 +228,6 @@
 		"desc": "专注于PDF格式互转、压缩等功能",
 		"logo": "http://chuangzaoshi.com/assets/images/D/smallpdf.png"
 	}, {
-		"name": "Logojoy",
-		"href": "http://logojoy.com/app.php",
-		"desc": "根据条件匹配在线生成Logo",
-		"logo": "http://chuangzaoshi.com/assets/images/D/logojoy.png"
-	}, {
 		"name": "Bezier Game",
 		"href": "http://bezier.method.ac/",
 		"desc": "贝塞尔曲线练习",
@@ -252,11 +237,6 @@
 		"href": "https://pdfcandy.com/",
 		"desc": "汇集众多常用PDF在线工具",
 		"logo": "http://chuangzaoshi.com/assets/images/D/pdfcandy.png"
-	}, {
-		"name": "QRhacker",
-		"href": "http://www.qrhacker.com/",
-		"desc": "国外创建二维码在线应用",
-		"logo": "http://chuangzaoshi.com/assets/images/D/qrhacker.png"
 	}, {
 		"name": "草料二维码",
 		"href": "https://cli.im/",
@@ -337,15 +317,10 @@
 		"href": "https://www.photopea.com/",
 		"desc": "在线打开PSD丨Sketch丨Gimp编辑器",
 		"logo": "http://chuangzaoshi.com/assets/images/D/photopea.png"
-	}, {
-		"name": "鹿班",
-		"href": "https://luban.aliyun.com/",
-		"desc": "阿里人工智能电商Banner广告图制作",
-		"logo": "http://chuangzaoshi.com/assets/images/D/luban.png"
 	}]
 }, {
 	"_id": "linggan",
-	"classify": "灵感采集",
+	"classify": "灵感`图素",
 	"icon": "ti-light-bulb",
 	"sites": [{
 		"name": "Muzli",
@@ -366,12 +341,7 @@
 		"name": "花瓣",
 		"href": "http://huaban.com/",
 		"desc": "中国美图收藏采集站",
-		"logo": "http://chuangzaoshi.com/assets/images/D/huaban.png"
-	}, {
-		"name": "FWA",
-		"href": "https://thefwa.com/",
-		"desc": "创意媒体艺术设计作品展",
-		"logo": "http://chuangzaoshi.com/assets/images/D/thefwa.png"
+		"logo": "https://huaban.com/favicon.ico"
 	}, {
 		"name": "Deviantart",
 		"href": "http://www.deviantart.com/",
@@ -388,102 +358,27 @@
 		"desc": "创意灵感和教程的设计博客",
 		"logo": "http://chuangzaoshi.com/assets/images/D/abduzeedo.png"
 	}, {
-		"name": "Bestfolios",
-		"href": "http://bestfolios.com/main",
-		"desc": "产品丨界面丨插画灵感设计画廊",
-		"logo": "http://chuangzaoshi.com/assets/images/D/bestfolios.png"
-	}, {
 		"name": "Land-book",
 		"href": "https://land-book.com/",
 		"desc": "精挑细选的美站收集",
 		"logo": "http://chuangzaoshi.com/assets/images/D/land-book.png"
 	}, {
-		"name": "淘靈感",
-		"href": "https://www.mydesy.com/",
-		"desc": "台湾灵感创意视觉资讯收集网",
-		"logo": "http://chuangzaoshi.com/assets/images/D/mydesy.png"
+		"name": "pixiv",
+		"href": "https://www.pixiv.net/",
+		"desc": "著名p站之一，优秀插画分享，需科学上网",
+		"logo": "https://www.pixiv.net/favicon.ico"
 	}, {
-		"name": "CSS设计奖",
-		"href": "http://www.cssdesignawards.com/",
-		"desc": "全球优秀CSS网页设计奖提名网",
-		"logo": "http://chuangzaoshi.com/assets/images/D/cssdesignawards.png"
+		"name": "pixabay",
+		"href": "https://pixabay.com/",
+		"desc": "可商用图片站-支持中文",
+		"logo": "https://pixabay.com/favicon-32x32.png"
 	}, {
-		"name": "SpirationGrid",
-		"href": "http://theinspirationgrid.com/",
-		"desc": "创意灵感收录集合",
-		"logo": "http://chuangzaoshi.com/assets/images/D/theinspirationgrid.png"
+		"name": "pexels",
+		"href": "https://www.pexels.com/zh-cn/",
+		"desc": "可商用图片站-支持中文",
+		"logo": "https://www.pexels.com/favicon.ico"
 	}]
 }, {
-	"_id": "colors",
-	"classify": "颜色搭配",
-	"icon": "ti-paint-bucket",
-	"sites": [{
-		"name": "AdobeColor",
-		"href": "https://color.adobe.com/",
-		"desc": "Adobe专业配色工具",
-		"logo": "http://chuangzaoshi.com/assets/images/D/adobecolor.png"
-	}, {
-		"name": "Nipponcolors",
-		"href": "http://nipponcolors.com/",
-		"desc": "日本古典传统配色网站",
-		"logo": "http://chuangzaoshi.com/assets/images/D/nipponcolors.png"
-	}, {
-		"name": "Colorfavs",
-		"href": "http://www.colorfavs.com/",
-		"desc": "上传并匹配提取图片风格的颜色",
-		"logo": "http://chuangzaoshi.com/assets/images/D/colorfavs.png"
-	}, {
-		"name": "Coolors",
-		"href": "https://coolors.co/",
-		"desc": "在线快速配色生成工具",
-		"logo": "http://chuangzaoshi.com/assets/images/D/coolors.png"
-	}, {
-		"name": "Colorhunt",
-		"href": "http://www.colorhunt.co/",
-		"desc": "每天更新一组简洁舒服的配色方案",
-		"logo": "http://chuangzaoshi.com/assets/images/D/colorhunt.png"
-	}, {
-		"name": "MD调色器",
-		"href": "https://www.materialpalette.com/blue/purple",
-		"desc": "MaterialDesign强大的在线配色",
-		"logo": "http://chuangzaoshi.com/assets/images/D/materialpalette.png"
-	}, {
-		"name": "webgradients",
-		"href": "https://webgradients.com/",
-		"desc": "itmeo旗下180个漂亮渐变色模板",
-		"logo": "http://chuangzaoshi.com/assets/images/D/webgradients.png"
-	}, {
-		"name": "Trianglify",
-		"href": "http://qrohlf.com/trianglify-generator/",
-		"desc": "炫酷多边形背景色块生成",
-		"logo": "http://chuangzaoshi.com/assets/images/D/trianglifygenerator.png"
-	}, {
-		"name": "ColourLovers",
-		"href": "http://www.colourlovers.com/",
-		"desc": "全球设计师色彩分享交流社区",
-		"logo": "http://chuangzaoshi.com/assets/images/D/colourlovers.png"
-	}, {
-		"name": "WebColourData",
-		"href": "http://webcolourdata.com/",
-		"desc": "通过网址获取分析网站配色",
-		"logo": "http://chuangzaoshi.com/assets/images/D/webcolourdata.png"
-	}, {
-		"name": "中国传统色",
-		"href": "http://zhongguose.com/",
-		"desc": "中科院色谱的中国传统色",
-		"logo": "http://chuangzaoshi.com/assets/images/D/zhongguose.png"
-	}, {
-		"name": "Mesh Gradients",
-		"href": "https://lstore.graphics/meshgradients/",
-		"desc": "流行的网格渐变背景免费下载",
-		"logo": "http://chuangzaoshi.com/assets/images/D/lstore.png"
-	}, {
-		"name": "Picular",
-		"href": "https://picular.co/",
-		"desc": "色彩搜索引擎",
-		"logo": "http://chuangzaoshi.com/assets/images/D/picular.png"
-	}]
-},{
 	"_id": "blog",
 	"classify": "优秀博客",
 	"icon": "ti-medall-alt",

@@ -199,7 +199,10 @@ border:1px solid #fff;
   padding: 12px 0 0 2.1%;
   font-size: 16px;
 }
-.main .box .sub-category > i {
+.main .box .sub-category div i {
+  padding-right: 6px;
+}
+.main .box .sub-category div span {
   padding-right: 6px;
 }
 .main .box .item {
