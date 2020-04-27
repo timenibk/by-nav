@@ -6,103 +6,123 @@
 		"name": "52破解",
 		"href": "https://www.52pojie.cn/",
 		"desc": "软件安全与病毒分析,逆向、破解、技术",
-		"logo": "https://www.52pojie.cn/favicon.ico"
+		"logo": "static/icons/52pojie.cn.ico"
 	}, {
 		"name": "大眼仔旭",
 		"href": "http://www.dayanzai.me/",
 		"desc": "绿软、汉化软件分享",
-		"logo": "http://www.dayanzai.me/favicon.ico"
+		"logo": "static/icons/dayanzai.me.ico"
 	}, {
 		"name": "殁漂遥",
 		"href": "https://www.mpyit.com/",
 		"desc": "分类齐全，不定时修改下载地址获取方式",
-		"logo": "https://www.mpyit.com/favicon.ico"
+		"logo": "static/icons/mpyit.com.ico"
 	}, {
 		"name": "看雪学院",
 		"href": "https://www.kanxue.com/",
 		"desc": "加密与解密，渗透与反渗透",
-		"logo": "https://www.kanxue.com/view/img/favicon.ico"
+		"logo": "static/icons/kanxue.com.ico"
 	}, {
 		"name": "少数派",
 		"href": "https://sspai.com/",
 		"desc": "生产力工具推荐平台（含会员付费阅读制）",
-		"logo": "https://cdn.sspai.com/sspai/assets/img/favicon/icon.ico"
+		"logo": "static/icons/sspai.com.ico"
 	}, {
 		"name": "Zdfans",
 		"href": "https://www.zdfans.com/",
 		"desc": "转手之后变得很难看，但还能用",
-		"logo": "https://www.zdfans.com/favicon.ico"
+		"logo": "static/icons/zdfans.com.ico"
 	}, {
 		"name": "小众软件",
 		"href": "https://www.appinn.com/",
 		"desc": "分享免费、小巧、实用、有趣、绿色的软件",
-		"logo": "https://www.appinn.com/favicon.ico"
+		"logo": "static/icons/appinn.com.ico"
+	}, {
+		"name": "果核剥壳",
+		"href": "https://www.ghpym.com/",
+		"desc": "优秀资源推荐、评测，限免优惠资讯",
+		"logo": "static/icons/ghpym.com.ico"
 	}, {
 		"name": "异次元软件",
 		"href": "https://www.iplaysoft.com/",
 		"desc": "优秀资源推荐、评测，限免优惠资讯",
-		"logo": "https://www.iplaysoft.com/favicon.ico"
+		"logo": "static/icons/iplaysoft.com.ico"
+	}, {
+		"name": "photopea",
+		"href": "https://www.photopea.com/",
+		"desc": "在线ps，支持绝大多数功能。",
+		"logo": "static/icons/photopea.com.png"
 	}]
 }, {
 	"_id": "yunpan",
 	"classify": "云盘储存",
 	"icon": "ti-cloud",
 	"sites": [{
-		"name": "OneDrive",
-		"href": "http://onedrive.com/",
-		"desc": "微软云存储，支持在线Offiec编辑",
-		"logo": "http://chuangzaoshi.com/assets/images/P/onedrive.png"
-	}, {
-		"name": "DropBox",
-		"href": "https://www.dropbox.com/",
-		"desc": "全球最优秀的在线云存储",
-		"logo": "http://chuangzaoshi.com/assets/images/P/dropbox.png"
-	}, {
-		"name": "GoogleDrive",
-		"href": "https://www.google.com/intl/zh-CN/drive/",
-		"desc": "Google在线云存储服务",
-		"logo": "http://chuangzaoshi.com/assets/images/P/googledrive.png"
-	}, {
-		"name": "iCloud",
-		"href": "https://www.icloud.com/",
-		"desc": "苹果在线存储和云服务",
-		"logo": "http://chuangzaoshi.com/assets/images/P/icloud.png"
-	}, {
 		"name": "文叔叔",
 		"href": "https://www.wenshushu.cn/",
 		"desc": "大文件即时传输，新晋优秀网盘",
-		"logo": "https://www.wenshushu.cn/favicon.ico"
+		"logo": "static/icons/wenshushu.cn.ico"
 	},  {
 		"name": "微云",
 		"href": "https://www.weiyun.com/",
 		"desc": "腾讯QQ网盘服务",
-		"logo": "http://chuangzaoshi.com/assets/images/P/weiyun.png"
+		"logo": "static/icons/weiyun.com.ico"
 	}, {
 		"name": "坚果云",
 		"href": "https://www.jianguoyun.com/",
 		"desc": "小众服务稳定的网盘，支持webdav",
-		"logo": "http://chuangzaoshi.com/assets/images/P/jianguoyun.png"
+		"logo": "static/icons/jianguoyun.com.ico"
 	}, {
 		"name": "奶牛快传",
 		"href": "https://cowtransfer.com/",
 		"desc": "小众服务稳定的网盘",
-		"logo": "https://background.cowtransfer.com/favicon-32x32.png"
+		"logo": "static/icons/cowtransfer.com.png"
+	}, {
+		"name": "OneDrive",
+		"href": "http://onedrive.com/",
+		"desc": "微软云存储，支持在线Offiec编辑",
+		"logo": "static/icons/onedrive.live.com.ico"
+	}, {
+		"name": "DropBox",
+		"href": "https://www.dropbox.com/",
+		"desc": "全球最优秀的在线云存储",
+		"logo": "static/icons/dropbox.com.png"
+	}, {
+		"name": "GoogleDrive",
+		"href": "https://www.google.com/intl/zh-CN/drive/",
+		"desc": "Google在线云存储服务",
+		"logo": "static/icons/drive.google.com.png"
+	}, {
+		"name": "iCloud",
+		"href": "https://www.icloud.com/",
+		"desc": "苹果在线存储和云服务",
+		"logo": "static/icons/icloud.com.png"
 	}, {
 		"name": "Firefox Send",
 		"href": "https://send.firefox.com/",
 		"desc": "火狐提供的快传网盘",
-		"logo": "https://send.firefox.com/icon.fd04d81a.svg"
+		"logo": "static/icons/firefox.com.svg"
+	},{
+		"name": "天翼云盘",
+		"href": "https://cloud.189.cn/",
+		"desc": "电信出品的优秀网盘",
+		"logo": "static/icons/189.cn.ico"
 	}, {
 		"name": "城通网盘",
 		"href": "https://www.ctfile.com/",
 		"desc": "页面不算太难看的网赚网盘，个人使用建议开会员,度盘替代品之一",
-		"logo": "https://send.firefox.com/icon.fd04d81a.svg"
+		"logo": "static/icons/ctfile.com.png"
 	}]
-},  {
+},  { 
 	"_id": "daohang",
 	"classify": "分类导航",
 	"icon": "ti-bookmark-alt",
 	"sites": [{
+		"name": "今日热榜",
+		"href": "https://tophub.today/",
+		"desc": "主流新闻站热点当日集合",
+		"logo": "static/icons/tophub.today.png"
+	},{
 		"name": "优设导航",
 		"href": "https://hao.uisdc.com/",
 		"desc": "一个优秀的设计师导航站",
@@ -127,6 +147,16 @@
 		"href": "http://ilxdh.com/",
 		"desc": "疯狂影视同属产品，支持登录添加自定义网址",
 		"logo": "http://ilxdh.com/favicon.ico"
+	},{
+		"name": "考拉新媒体导航",
+		"href": "https://www.kaolamedia.com/",
+		"desc": "新媒体行业专业导航",
+		"logo": "static/icons/kaolamedia.com.ico"
+	},{
+		"name": "医学导航",
+		"href": "http://meddir.cn/",
+		"desc": "医学类网站导航",
+		"logo": "no-logo"
 	}]
 }, {
 	"_id": "wangpan",
@@ -148,15 +178,20 @@
 		"desc": "具有统计功能，能列出新收录文件。",
 		"logo": "https://www.56wangpan.com/favicon.ico"
 	},{
-		"name": "去转盘[会员制]",
-		"href": "https://www.quzhuanpan.com/",
-		"desc": "需微信扫码关注后下载，另有付费会员制。",
-		"logo": "https://www.quzhuanpan.com/media/image/logo/favicon.ico"
+		"name": "TheFuture",
+		"href": "https://bks.thefuture.top/",
+		"desc": "书籍搜索，提供网盘下载",
+		"logo": "https://bks.thefuture.top/bk.png"
 	},{
 		"name": "虫部落网盘搜索",
 		"href": "http://magnet.chongbuluo.com/",
 		"desc": "专注搜索[技术]的虫部落开放的聚合网盘搜索",
 		"logo": "https://search.chongbuluo.com/favicon.ico"
+	},{
+		"name": "6miu百度云搜索",
+		"href": "http://baiduyun.6miu.com/",
+		"desc": "小众搜索站 广告挺多",
+		"logo": "http://baiduyun.6miu.com/favicon.ico"
 	}]
 }, {
 	"_id": "quwei",
@@ -183,10 +218,15 @@
 		"desc": "Gif动图中文搜索平台",
 		"logo": "http://chuangzaoshi.com/assets/images/F/soogif.png"
 	}, {
-		"name": "Giphy",
-		"href": "http://giphy.com/",
+		"name": "小鸡词典",
+		"href": "https://jikipedia.com/",
 		"desc": "全球在线动态GIF图片搜索引擎",
-		"logo": "http://chuangzaoshi.com/assets/images/P/giphy.png"
+		"logo": "static/icons/jikipedia.com.png"
+	}, {
+		"name": "肌肉百科",
+		"href": "https://musclewiki.org/",
+		"desc": "选中哪块肌肉就展示对应锻炼方法",
+		"logo": "static/icons/musclewiki.org.ico"
 	}, {
 		"name": "imgur",
 		"href": "http://imgur.com/",
@@ -338,10 +378,10 @@
 		"desc": "中国美图收藏采集站",
 		"logo": "https://huaban.com/favicon.ico"
 	}, {
-		"name": "Deviantart",
-		"href": "http://www.deviantart.com/",
-		"desc": "分享各类艺术创作的设计社区",
-		"logo": "http://chuangzaoshi.com/assets/images/D/deviantart.png"
+		"name": "堆糖",
+		"href": "https://www.duitang.com/",
+		"desc": "美图壁纸兴趣社区",
+		"logo": "https://c-ssl.duitang.com/uploads/icons/duitang_favicon.ico"
 	}, {
 		"name": "365designers",
 		"href": "http://365awesomedesigners.com/",
@@ -353,10 +393,10 @@
 		"desc": "创意灵感和教程的设计博客",
 		"logo": "http://chuangzaoshi.com/assets/images/D/abduzeedo.png"
 	}, {
-		"name": "Land-book",
-		"href": "https://land-book.com/",
-		"desc": "精挑细选的美站收集",
-		"logo": "http://chuangzaoshi.com/assets/images/D/land-book.png"
+		"name": "设计癖",
+		"href": "http://www.shejipi.com/",
+		"desc": "美图好物发现社区",
+		"logo": "http://www.shejipi.com/favicon.ico"
 	}, {
 		"name": "pixiv",
 		"href": "https://www.pixiv.net/",

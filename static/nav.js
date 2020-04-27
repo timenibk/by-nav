@@ -106,42 +106,62 @@ $(function(){
       $("html,body").animate({ scrollTop: pos }, 500);      
 }) 
 
-//導航欄手機端隱藏
-var oMenu = document.getElementById('menu');
-var oBtn = oMenu.getElementsByTagName('a')[0];
-var oLeftBar = document.getElementById('leftBar');
-console.log
-oBtn.onclick = function(){
-  console.log("00");
-    if (oLeftBar.offsetLeft == 0) {
-        oLeftBar.style.left = -249 + 'px';
-    } else {
-        oLeftBar.style.left = 0 + 'px';
-    }
-    if (document.documentElement.clientWidth <= 600) {
-        document.onclick = function () {
-            if (oLeftBar.offsetLeft == 0) {
-                oLeftBar.style.left = -249 + 'px';
-            }
-        }
-    }
-}   
+      //導航欄手機端隱藏
+      var oMenu = document.getElementById('menu');
+      var oBtn = oMenu.getElementsByTagName('a')[0];
+      var oLeftBar = document.getElementById('leftBar');
+      console.log
+      oBtn.onclick = function(){
+        console.log("00");
+          if (oLeftBar.offsetLeft == 0) {
+              oLeftBar.style.left = -249 + 'px';
+          } else {
+              oLeftBar.style.left = 0 + 'px';
+          }
+          if (document.documentElement.clientWidth <= 600) {
+              document.onclick = function () {
+                  if (oLeftBar.offsetLeft == 0) {
+                      oLeftBar.style.left = -249 + 'px';
+                  }
+              }
+          }
+      }   
 
-//滑动到顶部
-$(window).scroll(function () {
-    if ($(window).scrollTop() >= 200) {
-        $('#fixedBar').fadeIn(300);
-    } else {
-        $('#fixedBar').fadeOut(300);
-    }
+      //滑动到顶部
+      $(window).scroll(function () {
+          if ($(window).scrollTop() >= 200) {
+              $('#fixedBar').fadeIn(300);
+          } else {
+              $('#fixedBar').fadeOut(300);
+          }
+      });
+      $('#fixedBar').click(function () {
+          $('html,body').animate({
+              scrollTop: '0px'
+          }, 800);
+      })
+
 });
-$('#fixedBar').click(function () {
-    $('html,body').animate({
-        scrollTop: '0px'
-    }, 800);
-})
+window.οnlοad=function() {
+  console.log("AA");
+    //给no-logo图像随机颜色
+    function randcolor(){  //十六进制颜色随机函数
+			var r = Math.floor(Math.random()*256);
+			var g = Math.floor(Math.random()*256);
+			var b = Math.floor(Math.random()*256);
+			var color = '#'+r.toString(16)+g.toString(16)+b.toString(16);
+			return color;
+    }
+    $.each($(".item_user .logo img[src='static/logo.svg']"), function(i,nDOM){  
+      var nstyle = {
+        'filter':'drop-shadow('+ randcolor() +' 10px 0)',
+        'transform': 'translateX(-10px)',
+        //'border-left':'10px solid transparent',
+        //'border-right': '10px solid transparent'
+      };
 
-});
+      $(nDOM).css(nstyle);
+      //DomStyle.css(nstyle);
+    });
 
-
-
+  };
