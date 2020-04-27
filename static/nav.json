@@ -1,34 +1,4 @@
 [{
-	"_id": "wangpan",
-	"classify": "网盘搜索",
-	"icon": "ti-search",
-	"sites": [{
-		"name": "大力盘",
-		"href": "https://www.dalipan.com/",
-		"desc": "度盘搜索，支持精准匹配或模糊匹配，有筛选功能",
-		"logo": "https://www.dalipan.com/favicon.ico"
-	},{
-		"name": "大圣盘",
-		"href": "https://www.dashengpan.com/",
-		"desc": "与大力盘功能相似",
-		"logo": "https://www.dashengpan.com/favicon.ico"
-	},{
-		"name": "56网盘搜索",
-		"href": "https://www.56wangpan.com/",
-		"desc": "具有统计功能，能列出新收录文件。",
-		"logo": "https://www.56wangpan.com/favicon.ico"
-	},{
-		"name": "去转盘[会员制]",
-		"href": "https://www.quzhuanpan.com/",
-		"desc": "需微信扫码关注后下载，另有付费会员制。",
-		"logo": "https://www.quzhuanpan.com/media/image/logo/favicon.ico"
-	},{
-		"name": "虫部落网盘搜索",
-		"href": "http://magnet.chongbuluo.com/",
-		"desc": "专注搜索[技术]的虫部落开放的聚合网盘搜索",
-		"logo": "https://search.chongbuluo.com/favicon.ico"
-	}]
-}, {
 	"_id": "ruanjian",
 	"classify": "软件·社区",
 	"icon": "ti-download",
@@ -128,6 +98,66 @@
 		"desc": "页面不算太难看的网赚网盘，个人使用建议开会员,度盘替代品之一",
 		"logo": "https://send.firefox.com/icon.fd04d81a.svg"
 	}]
+},  {
+	"_id": "daohang",
+	"classify": "分类导航",
+	"icon": "ti-bookmark-alt",
+	"sites": [{
+		"name": "优设导航",
+		"href": "https://hao.uisdc.com/",
+		"desc": "一个优秀的设计师导航站",
+		"logo": "https://hao.uisdc.com/favicon.ico"
+	},{
+		"name": "设计导航",
+		"href": "http://hao.shejidaren.com/",
+		"desc": "偏向前端与ui的设计师导航站",
+		"logo": "http://hao.shejidaren.com/images/favicon.ico"
+	},{
+		"name": "炫猿导航",
+		"href": "https://oo1.win/",
+		"desc": "一个炫酷的多功能导航站，收录品类丰富",
+		"logo": "https://oo1.win/favicon.ico"
+	},{
+		"name": "kim导航",
+		"href": "https://kim.plopco.com/",
+		"desc": "不罗嗦的导航，可切换国内外版本",
+		"logo": "https://kim.plopco.com/favicon.ico"
+	},{
+		"name": "龙轩导航",
+		"href": "http://ilxdh.com/",
+		"desc": "疯狂影视同属产品，支持登录添加自定义网址",
+		"logo": "http://ilxdh.com/favicon.ico"
+	}]
+}, {
+	"_id": "wangpan",
+	"classify": "网盘搜索",
+	"icon": "ti-search",
+	"sites": [{
+		"name": "大力盘",
+		"href": "https://www.dalipan.com/",
+		"desc": "度盘搜索，支持精准匹配或模糊匹配，有筛选功能",
+		"logo": "https://www.dalipan.com/favicon.ico"
+	},{
+		"name": "大圣盘",
+		"href": "https://www.dashengpan.com/",
+		"desc": "与大力盘功能相似",
+		"logo": "https://www.dashengpan.com/favicon.ico"
+	},{
+		"name": "56网盘搜索",
+		"href": "https://www.56wangpan.com/",
+		"desc": "具有统计功能，能列出新收录文件。",
+		"logo": "https://www.56wangpan.com/favicon.ico"
+	},{
+		"name": "去转盘[会员制]",
+		"href": "https://www.quzhuanpan.com/",
+		"desc": "需微信扫码关注后下载，另有付费会员制。",
+		"logo": "https://www.quzhuanpan.com/media/image/logo/favicon.ico"
+	},{
+		"name": "虫部落网盘搜索",
+		"href": "http://magnet.chongbuluo.com/",
+		"desc": "专注搜索[技术]的虫部落开放的聚合网盘搜索",
+		"logo": "https://search.chongbuluo.com/favicon.ico"
+	}]
 }, {
 	"_id": "quwei",
 	"classify": "趣味网站",
@@ -218,11 +248,6 @@
 		"desc": "在线设计工具，包含在线抠图",
 		"logo": "https://www.gaoding.com/favicon.ico"
 	}, {
-		"name": "Jpegmini",
-		"href": "http://www.jpegmini.com/",
-		"desc": "JPG图片压缩工具",
-		"logo": "http://chuangzaoshi.com/assets/images/D/jpegmini.png"
-	}, {
 		"name": "Smallpdf",
 		"href": "https://smallpdf.com/cn",
 		"desc": "专注于PDF格式互转、压缩等功能",
@@ -253,45 +278,20 @@
 		"desc": "图片智能算法无损放大",
 		"logo": "http://chuangzaoshi.com/assets/images/D/waifu2x.png"
 	}, {
-		"name": "VectorMagic",
-		"href": "https://vectormagic.com/",
-		"desc": "收费！非常强大的位图转矢量图",
-		"logo": "http://chuangzaoshi.com/assets/images/D/vectormagic.png"
-	}, {
-		"name": "FlattyShadow",
-		"href": "http://flattyshadow.com/",
-		"desc": "图标长投影在线生成",
-		"logo": "http://chuangzaoshi.com/assets/images/D/flattyshadow.png"
-	}, {
 		"name": "WeaveSilk",
 		"href": "http://weavesilk.com/",
 		"desc": "炫酷对称艺术纹理特效绘制",
 		"logo": "http://chuangzaoshi.com/assets/images/D/weavesilk.png"
-	}, {
-		"name": "QuickMark",
-		"href": "http://www.quickmark.com.tw/cht/qrcode-datamatrix-generator/",
-		"desc": "台湾一家二维码在线制作和APP程序",
-		"logo": "http://chuangzaoshi.com/assets/images/D/quickmark.png"
 	}, {
 		"name": "Autodraw",
 		"href": "https://autodraw.com/",
 		"desc": "谷歌绘画智能匹配相应图形[需翻墙]",
 		"logo": "http://chuangzaoshi.com/assets/images/D/autodraw.png"
 	}, {
-		"name": "Grid",
-		"href": "http://grid.guide/",
-		"desc": "网页网格栅格化工具",
-		"logo": "http://chuangzaoshi.com/assets/images/D/grid.png"
-	}, {
 		"name": "Loading",
 		"href": "https://loading.io/",
 		"desc": "制作GIF丨SVG丨CSS加载动画图标",
 		"logo": "http://chuangzaoshi.com/assets/images/D/loading.png"
-	}, {
-		"name": "Logaster",
-		"href": "https://www.logaster.cn",
-		"desc": "在线免费创建简单logo及名片设计",
-		"logo": "http://chuangzaoshi.com/assets/images/D/logaster.png"
 	}, {
 		"name": "Goimg.io",
 		"href": "https://goimg.io/",
@@ -302,11 +302,6 @@
 		"href": "https://icons8.com/preloaders/",
 		"desc": "Loading加载动画在线制作",
 		"logo": "http://chuangzaoshi.com/assets/images/D/preloaders.png"
-	}, {
-		"name": "ClippingMagic",
-		"href": "https://clippingmagic.com",
-		"desc": "在线抠图工具",
-		"logo": "http://chuangzaoshi.com/assets/images/D/clippingmagic.png"
 	}, {
 		"name": "Squoosh",
 		"href": "https://squoosh.app/",
