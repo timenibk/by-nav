@@ -213,7 +213,6 @@ border:1px solid #fff;
   background: #fff;
   padding: 10px;
   min-width: 200px;
-  margin: 22px 0 0 2.1%;
   float: left;
   overflow: hidden;
   transition: all .3s;
@@ -317,9 +316,13 @@ border:1px solid #fff;
   .container .box .item {
     width: 39%;
     min-width: 100px;
+    margin: 8px 0 0 2.1%;
   }
   .container .main {
     margin-left: 0;
+  }
+  .main .box .item .desc{
+    height: 18px;
   }
   .container .left-bar {
     z-index: 999;
@@ -334,6 +337,7 @@ border:1px solid #fff;
 @media screen and (min-width: 600px) {
   .container .box .item {
     width: 90%;
+    margin: 8px 0 0 2.1%;
   }
   .container .left-bar {
     left: 0px;
@@ -342,16 +346,22 @@ border:1px solid #fff;
 @media screen and (min-width: 790px) {
   .container .box .item {
     width: 43%;
+    margin: 18px 0 0 2.1%;
   }
 }
 @media screen and (min-width: 1040px) {
   .container .box .item {
     width: 28%;
+    margin: 22px 0 0 2.1%;
+  }
+  .container .left-bar {
+    left: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container .box .item {
     width: 20%;
+    margin: 22px 0 0 2.1%;
   }
 
 }
