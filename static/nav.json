@@ -18,6 +18,16 @@
 		"desc": "分类齐全，不定时修改下载地址获取方式",
 		"logo": "static/icons/mpyit.com.ico"
 	}, {
+		"name": "胡萝卜周",
+		"href": "http://www.carrotchou.blog/",
+		"desc": "又一个软件分享'领跑者'",
+		"logo": "static/icons/appcgn.com.ico"
+	}, {
+		"name": "软件缘",
+		"href": "https://www.appcgn.com/",
+		"desc": "绿化、汉化软件",
+		"logo": "static/icons/appcgn.com.ico"
+	}, {
 		"name": "看雪学院",
 		"href": "https://www.kanxue.com/",
 		"desc": "加密与解密，渗透与反渗透",
@@ -110,7 +120,7 @@
 	}, {
 		"name": "城通网盘",
 		"href": "https://www.ctfile.com/",
-		"desc": "页面不算太难看的网赚网盘，个人使用建议开会员,度盘替代品之一",
+		"desc": "页面不算太难看的网赚网盘,度盘替代品之一",
 		"logo": "static/icons/ctfile.com.png"
 	}]
 },  { 
@@ -128,10 +138,10 @@
 		"desc": "一个优秀的设计师导航站",
 		"logo": "https://hao.uisdc.com/favicon.ico"
 	},{
-		"name": "设计导航",
-		"href": "http://hao.shejidaren.com/",
-		"desc": "偏向前端与ui的设计师导航站",
-		"logo": "http://hao.shejidaren.com/images/favicon.ico"
+		"name": "堕落了",
+		"href": "https://www.duoluole.com/",
+		"desc": "年轻态友好向网址导航",
+		"logo": "static/icons/duoluole.com.png"
 	},{
 		"name": "炫猿导航",
 		"href": "https://oo1.win/",
@@ -147,6 +157,11 @@
 		"href": "http://ilxdh.com/",
 		"desc": "疯狂影视同属产品，支持登录添加自定义网址",
 		"logo": "http://ilxdh.com/favicon.ico"
+	},{
+		"name": "设计导航",
+		"href": "http://hao.shejidaren.com/",
+		"desc": "偏向前端与ui的设计师导航站",
+		"logo": "static/icons/shejidaren.com.ico"
 	},{
 		"name": "考拉新媒体导航",
 		"href": "https://www.kaolamedia.com/",
@@ -187,11 +202,6 @@
 		"href": "http://magnet.chongbuluo.com/",
 		"desc": "专注搜索[技术]的虫部落开放的聚合网盘搜索",
 		"logo": "https://search.chongbuluo.com/favicon.ico"
-	},{
-		"name": "6miu百度云搜索",
-		"href": "http://baiduyun.6miu.com/",
-		"desc": "小众搜索站 广告挺多",
-		"logo": "http://baiduyun.6miu.com/favicon.ico"
 	}]
 }, {
 	"_id": "quwei",

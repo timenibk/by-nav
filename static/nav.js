@@ -24,8 +24,8 @@ $(function(){
           navstr += '<a target="_blank" href="' + str["href"]+ '">';
           navstr += '<div class="item">';
           navstr += '    <div class="logo">'
-          navstr +='       <img src="' + str["logo"] + '">' + str["name"] + ' </div>';
-          navstr +='   <div class="desc">'+ str["desc"] + '</div>';
+          navstr +='       <img src="' + str["logo"] + '"></div> ';
+          navstr +='   <div class="content">'+'<strong>' + str["name"]+'</strong><p class="desc">'+ str["desc"] + '</p></div>';
           navstr += '</div>      </a>';
         })
         navstr = navtitle + navstr + '</div>';
@@ -52,10 +52,10 @@ $(function(){
                 str["logo"]="static/logo.svg";
               }
               navstr += '<a target="_blank" href="' + str["href"]+ '">';
-              navstr += '<div class="item item_user">';
+              navstr += '<div class="item">';
               navstr += '    <div class="logo">'
-              navstr +='       <img src="' + str["logo"] + '">' + str["name"] + ' </div>';
-              // navstr +='   <div class="desc">'+ str["desc"] + '</div>';
+              navstr +='       <img src="' + str["logo"] + '"></div> ';
+              navstr +='   <div class="content">'+'<strong>' + str["name"]+'</strong></div>';
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
@@ -74,10 +74,10 @@ $(function(){
                 str["logo"]="static/logo.svg";
               }
               navstr += '<a target="_blank" href="' + str["href"]+ '">';
-              navstr += '<div class="item item_user">';
+              navstr += '<div class="item">';
               navstr += '    <div class="logo">'
-              navstr +='       <img src="' + str["logo"] + '">' + str["name"] + ' </div>';
-              //navstr +='   <div class="desc">'+ str["desc"] + '</div>';
+              navstr +='       <img src="' + str["logo"] + '"></div> ';
+              navstr +='   <div class="content">'+'<strong>' + str["name"]+'</strong></div>';
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
