@@ -55,7 +55,7 @@ $(function(){
               navstr += '<div class="item">';
               navstr += '    <div class="logo">'
               navstr +='       <img src="' + str["logo"] + '"></div> ';
-              navstr +='   <div class="content">'+'<strong>' + str["name"]+'</strong></div>';
+              navstr +='   <div class="content_d">'+'<strong>' + str["name"]+'</strong></div>';
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
@@ -77,7 +77,7 @@ $(function(){
               navstr += '<div class="item">';
               navstr += '    <div class="logo">'
               navstr +='       <img src="' + str["logo"] + '"></div> ';
-              navstr +='   <div class="content">'+'<strong>' + str["name"]+'</strong></div>';
+              navstr +='   <div class="content_d">'+'<strong>' + str["name"]+'</strong></div>';
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';

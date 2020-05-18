@@ -260,6 +260,18 @@ border:1px solid #fff;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+.main .box .item .content_d {
+  color: gray;
+  font-size: 12px;
+  padding-left: 44px;
+  height: 30px;
+  line-height:30px;
+   overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 .main .box .item .desc {
   font-size: 10px;
   padding-top:5px;

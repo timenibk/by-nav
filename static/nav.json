@@ -146,17 +146,17 @@
 		"name": "炫猿导航",
 		"href": "https://oo1.win/",
 		"desc": "一个炫酷的多功能导航站，收录品类丰富",
-		"logo": "https://oo1.win/favicon.ico"
+		"logo": "static/icons/oo1.win.ico"
 	},{
 		"name": "kim导航",
 		"href": "https://kim.plopco.com/",
 		"desc": "不罗嗦的导航，可切换国内外版本",
-		"logo": "https://kim.plopco.com/favicon.ico"
+		"logo": "static/icons/plopco.com.ico"
 	},{
 		"name": "龙轩导航",
 		"href": "http://ilxdh.com/",
 		"desc": "疯狂影视同属产品，支持登录添加自定义网址",
-		"logo": "http://ilxdh.com/favicon.ico"
+		"logo": "static/icons/ilxdh.com.ico"
 	},{
 		"name": "设计导航",
 		"href": "http://hao.shejidaren.com/",
@@ -408,20 +408,15 @@
 		"desc": "美图好物发现社区",
 		"logo": "http://www.shejipi.com/favicon.ico"
 	}, {
-		"name": "pixiv",
-		"href": "https://www.pixiv.net/",
-		"desc": "著名p站之一，优秀插画分享，需科学上网",
-		"logo": "https://www.pixiv.net/favicon.ico"
-	}, {
 		"name": "pixabay",
 		"href": "https://pixabay.com/",
 		"desc": "可商用图片站-支持中文",
-		"logo": "https://pixabay.com/favicon-32x32.png"
+		"logo": "static/icons/pixabay.com.png"
 	}, {
 		"name": "pexels",
 		"href": "https://www.pexels.com/zh-cn/",
 		"desc": "可商用图片站-支持中文",
-		"logo": "https://www.pexels.com/favicon.ico"
+		"logo": "static/icons/pexels.com.ico"
 	}]
 }, {
 	"_id": "blog",
