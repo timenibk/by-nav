@@ -16,7 +16,7 @@ $(function(){
         var navstr =  "";
         var navtitle = "";
         strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "</a></li>" ;
-        navtitle += "<div class='box'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><span class='"  + info["icon"] + "'></span>" + info["classify"] +"</div> </div><div>";
+        navtitle += "<div class='box box_default'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><span class='"  + info["icon"] + "'></span>" + info["classify"] +"</div> </div><div>";
         $.each(info["sites"],function(i,str){
           if (str["logo"] == "no-logo"){
             str["logo"]="static/logo.svg";
@@ -59,7 +59,8 @@ $(function(){
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
-            $(".about").after(navstr);//插入自定义内容
+            //$(".about").after(navstr);//插入自定义内容
+            $(".box_default").before(navstr);
           })
         }
         else{
@@ -81,7 +82,8 @@ $(function(){
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
-            $(".about").after(navstr);//插入自定义内容
+            //$(".about").after(navstr);//插入自定义内容
+            $(".box_default").before(navstr);
           }) 
         }
         
