@@ -117,7 +117,12 @@
 		"href": "https://cloud.189.cn/",
 		"desc": "电信出品的优秀网盘",
 		"logo": "static/icons/189.cn.ico"
-	}, {
+	},{
+		"name": "曲奇办公",
+		"href": "https://quqi.com/",
+		"desc": "主打办公群组类网盘",
+		"logo": "static/icons/quqi.com.ico"
+	},{
 		"name": "城通网盘",
 		"href": "https://www.ctfile.com/",
 		"desc": "页面不算太难看的网赚网盘,度盘替代品之一",
@@ -175,23 +180,23 @@
 	}]
 }, {
 	"_id": "wangpan",
-	"classify": "网盘搜索",
+	"classify": "资源搜索",
 	"icon": "ti-search",
 	"sites": [{
+		"name": "LOOKAO",
+		"href": "https://lookao.com/",
+		"desc": "简单的 不追踪不记录搜索引擎",
+		"logo": "https://www.dashengpan.com/favicon.ico"
+	},{
 		"name": "大力盘",
 		"href": "https://www.dalipan.com/",
 		"desc": "度盘搜索，支持精准匹配或模糊匹配，有筛选功能",
 		"logo": "https://www.dalipan.com/favicon.ico"
 	},{
-		"name": "大圣盘",
-		"href": "https://www.dashengpan.com/",
-		"desc": "与大力盘功能相似",
-		"logo": "https://www.dashengpan.com/favicon.ico"
-	},{
-		"name": "56网盘搜索",
-		"href": "https://www.56wangpan.com/",
-		"desc": "具有统计功能，能列出新收录文件。",
-		"logo": "https://www.56wangpan.com/favicon.ico"
+		"name": "史莱姆",
+		"href": "http://www.slimego.cn",
+		"desc": "度盘搜索，更新较快，有学习资料专项",
+		"logo": "static/icons/slimego.cn.ico"
 	},{
 		"name": "TheFuture",
 		"href": "https://bks.thefuture.top/",
@@ -208,25 +213,20 @@
 	"classify": "趣味网站",
 	"icon": "ti-package",
 	"sites": [{
-		"name": "小猪动图",
-		"href": "http://www.piggif.com/",
-		"desc": "GIF动图中文搜索和制作",
-		"logo": "http://chuangzaoshi.com/assets/images/O/piggif.png"
-	}, {
 		"name": "能不能好好说话",
 		"href": "https://lab.magiconch.com/nbnhhsh/",
 		"desc": "分分钟混入00后圈子，rnb（really 牛B）",
-		"logo": "http://chuangzaoshi.com/assets/images/P/ifttt.png"
+		"logo": "static/icons/magiconch.com.ico"
 	}, {
 		"name": "煎蛋",
 		"href": "http://jandan.net/",
 		"desc": "世界上没有新鲜事，除了表情包",
-		"logo": "http://cdn.jandan.net/static/img/favicon.ico"
+		"logo": "static/icons/jandan.net.ico"
 	},{
-		"name": "GIF搜索",
+		"name": "soogif搜索",
 		"href": "http://soogif.com/",
 		"desc": "Gif动图中文搜索平台",
-		"logo": "http://chuangzaoshi.com/assets/images/F/soogif.png"
+		"logo": "static/icons/soogif.com.ico"
 	}, {
 		"name": "小鸡词典",
 		"href": "https://jikipedia.com/",
@@ -241,7 +241,7 @@
 		"name": "imgur",
 		"href": "http://imgur.com/",
 		"desc": "全球免费的图片分享和图床网站",
-		"logo": "http://chuangzaoshi.com/assets/images/P/imgur.png"
+		"logo": "static/icons/imgur.com.png"
 	}]
 },{
 	"_id": "wangluo",
@@ -268,9 +268,9 @@
 		"desc": "创建一个十分钟内可用的临时邮箱。",
 		"logo": "http://mail.bccto.me/static/favicon.ico"
 	}, {
-		"name": "码农自助下载平台",
+		"name": "码农下载平台",
 		"href": "http://www.umsdn.com/",
-		"desc": "几大主流图库vip素材下载站，使用多年依旧稳定，价格靠谱",
+		"desc": "几大主流图库vip素材下载站，使用多年依旧稳定",
 		"logo": "no-logo"
 	}, {
 		"name": "创客贴",
@@ -291,22 +291,17 @@
 		"name": "qiuziti",
 		"href": "http://www.qiuziti.com/",
 		"desc": "中文上传图片字体查找",
-		"logo": "http://chuangzaoshi.com/assets/images/D/qiuziti.png"
+		"logo": "static/icons/qiuziti.com.ico"
 	}, {
 		"name": "稿定设计",
 		"href": "https://www.gaoding.com/",
 		"desc": "在线设计工具，包含在线抠图",
-		"logo": "https://www.gaoding.com/favicon.ico"
+		"logo": "static/icons/gaoding.com.ico"
 	}, {
 		"name": "Smallpdf",
 		"href": "https://smallpdf.com/cn",
 		"desc": "专注于PDF格式互转、压缩等功能",
 		"logo": "http://chuangzaoshi.com/assets/images/D/smallpdf.png"
-	}, {
-		"name": "Bezier Game",
-		"href": "http://bezier.method.ac/",
-		"desc": "贝塞尔曲线练习",
-		"logo": "http://chuangzaoshi.com/assets/images/D/bezier.png"
 	}, {
 		"name": "PDFcandy",
 		"href": "https://pdfcandy.com/",
@@ -316,38 +311,33 @@
 		"name": "草料二维码",
 		"href": "https://cli.im/",
 		"desc": "国内创建二维码在线应用",
-		"logo": "http://chuangzaoshi.com/assets/images/D/cli.png"
+		"logo": "static/icons/cli.im.icog"
 	}, {
 		"name": "optimizilla",
 		"href": "http://optimizilla.com/",
 		"desc": "支持JPEG和PNG格式在线压缩工具",
 		"logo": "http://chuangzaoshi.com/assets/images/D/optimizilla.png"
 	}, {
-		"name": "waifu2x",
-		"href": "http://waifu2x.udp.jp/",
+		"name": "bigjpg",
+		"href": "https://bigjpg.com/",
 		"desc": "图片智能算法无损放大",
-		"logo": "http://chuangzaoshi.com/assets/images/D/waifu2x.png"
+		"logo": "static/icons/bigjpg.com.ico"
 	}, {
 		"name": "WeaveSilk",
 		"href": "http://weavesilk.com/",
 		"desc": "炫酷对称艺术纹理特效绘制",
 		"logo": "http://chuangzaoshi.com/assets/images/D/weavesilk.png"
 	}, {
-		"name": "Autodraw",
-		"href": "https://autodraw.com/",
-		"desc": "谷歌绘画智能匹配相应图形[需翻墙]",
-		"logo": "http://chuangzaoshi.com/assets/images/D/autodraw.png"
-	}, {
 		"name": "Loading",
 		"href": "https://loading.io/",
-		"desc": "制作GIF丨SVG丨CSS加载动画图标",
-		"logo": "http://chuangzaoshi.com/assets/images/D/loading.png"
+		"desc": "在线快速生成loading图标",
+		"logo": "static/icons/loading.io.ico"
 	}, {
 		"name": "Goimg.io",
 		"href": "https://goimg.io/",
 		"desc": "智能在线图片压缩",
-		"logo": "http://chuangzaoshi.com/assets/images/F/goimg.png"
-	}, {
+		"logo": "static/icons/img.top.ico"
+	}, { 
 		"name": "Preloaders",
 		"href": "https://icons8.com/preloaders/",
 		"desc": "Loading加载动画在线制作",
@@ -371,42 +361,32 @@
 		"name": "Muzli",
 		"href": "http://muz.li/",
 		"desc": "设计灵感资源聚合",
-		"logo": "http://chuangzaoshi.com/assets/images/D/muzli.png"
+		"logo": "static/icons/muz.li.ico"
 	}, {
 		"name": "Pinterest",
 		"href": "https://www.pinterest.com/",
 		"desc": "全球美图收藏采集站",
-		"logo": "http://chuangzaoshi.com/assets/images/D/pinterest.png"
+		"logo": "static/icons/pinterest.com.ico"
 	}, {
-		"name": "Panda",
-		"href": "http://usepanda.com/app/",
-		"desc": "设计作品和资讯文摘订阅平台",
-		"logo": "http://chuangzaoshi.com/assets/images/D/panda.png"
+		"name": "站酷",
+		"href": "https://www.zcool.com.cn/",
+		"desc": "国内设计交流互动平台",
+		"logo": "static/icons/zcool.cn.ico"
 	}, {
 		"name": "花瓣",
 		"href": "http://huaban.com/",
 		"desc": "中国美图收藏采集站",
-		"logo": "https://huaban.com/favicon.ico"
+		"logo": "static/icons/huaban.com.ico"
 	}, {
 		"name": "堆糖",
 		"href": "https://www.duitang.com/",
 		"desc": "美图壁纸兴趣社区",
-		"logo": "https://c-ssl.duitang.com/uploads/icons/duitang_favicon.ico"
-	}, {
-		"name": "365designers",
-		"href": "http://365awesomedesigners.com/",
-		"desc": "365天每天推荐一个设计师作品",
-		"logo": "http://chuangzaoshi.com/assets/images/D/365awesomedesigners.png"
-	}, {
-		"name": "abduzeedo",
-		"href": "http://abduzeedo.com/",
-		"desc": "创意灵感和教程的设计博客",
-		"logo": "http://chuangzaoshi.com/assets/images/D/abduzeedo.png"
+		"logo": "static/icons/duitang.com.ico"
 	}, {
 		"name": "设计癖",
 		"href": "http://www.shejipi.com/",
 		"desc": "美图好物发现社区",
-		"logo": "http://www.shejipi.com/favicon.ico"
+		"logo": "static/icons/shejipi.com.ico"
 	}, {
 		"name": "pixabay",
 		"href": "https://pixabay.com/",
