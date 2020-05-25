@@ -4,7 +4,6 @@
 
 网站采用html+css+js+json 纯静态搭建，因为这么轻量的单页不想用框架不想用数据库。。可以直接扔阿里云的静态页托管
 
-页面基础样式copy自<a target="_blank" href="https://github.com/geekape/geek-navigation">geekape</a>
 
 页面截图：
 
@@ -45,7 +44,9 @@ http(s)://(url)/?p=(自定义json地址)&f=(自定义json分组)
 TODO：
 - [x] 网址带json地址参数访问（便于放一些不方便展示或按需求展示）；
 
-- [ ] json网页可视化编辑页面（便于需要增加页面但不想手动编辑）；
+- [ ] 本地书签自定义添加；
+
+
 
 # 其他说明 
 
