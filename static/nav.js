@@ -41,11 +41,13 @@ $(function(){
         var f = getQueryVariable('f')
         var strHtml = "";
         if(f != ""){
-          var model = data.filter(function (e) { return e.filter == f; });
-          $.each(model,function(infoIndex,info){  
+          var model = data.filter(function (e) { return e.filter == f; }); //筛选
+          $.each(model,function(infoIndex,info){
+            strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "[自定义]</a></li>" ;
+          })
+          $.each(model.reverse(),function(infoIndex,info){  
             var navstr =  "";
             var navtitle = "";
-            strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "[自定义]</a></li>" ;
             navtitle += "<div class='box box_user'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><i class='"  + info["icon"] + "'></i>" + info["classify"] +"[自定义]</div> </div><div>";
             $.each(info["sites"],function(i,str){
               if (str["logo"] == "no-logo"){
@@ -59,16 +61,16 @@ $(function(){
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
-            //$(".about").after(navstr);//插入自定义内容
-            $(".box_default").before(navstr);
+            $(".about").after(navstr);//插入自定义内容
           })
         }
         else{
-          $.each(data,function(infoIndex,info){  
-
-            var navstr =  "";
-            var navtitle = "";
+          $.each(data,function(infoIndex,info){
             strHtml += "<li><a href='#" + info["_id"] + "'><span class ='" +info["icon"] + "'></span>" + info["classify"] + "[自定义]</a></li>" ;
+          })
+          $.each(data.reverse(),function(infoIndex,info){  
+            var navstr =  "";
+            var navtitle = "";            
             navtitle += "<div class='box box_user'><a href='#' id='" +info["_id"] + "'></a> <div class='sub-category'> <div><i class='"  + info["icon"] + "'></i>" + info["classify"] +"[自定义]</div> </div><div>";
             $.each(info["sites"],function(i,str){
               if (str["logo"] == "no-logo"){
@@ -82,8 +84,7 @@ $(function(){
               navstr += '</div>      </a>';
             })
             navstr = navtitle + navstr + '</div>';
-            //$(".about").after(navstr);//插入自定义内容
-            $(".box_default").before(navstr);
+            $(".about").after(navstr);//插入自定义内容
           }) 
         }
         
@@ -144,26 +145,3 @@ $(function(){
       })
 
 });
-window.οnlοad=function() {
-  console.log("AA");
-    //给no-logo图像随机颜色
-    function randcolor(){  //十六进制颜色随机函数
-			var r = Math.floor(Math.random()*256);
-			var g = Math.floor(Math.random()*256);
-			var b = Math.floor(Math.random()*256);
-			var color = '#'+r.toString(16)+g.toString(16)+b.toString(16);
-			return color;
-    }
-    $.each($(".item_user .logo img[src='static/logo.svg']"), function(i,nDOM){  
-      var nstyle = {
-        'filter':'drop-shadow('+ randcolor() +' 10px 0)',
-        'transform': 'translateX(-10px)',
-        //'border-left':'10px solid transparent',
-        //'border-right': '10px solid transparent'
-      };
-
-      $(nDOM).css(nstyle);
-      //DomStyle.css(nstyle);
-    });
-
-  };
