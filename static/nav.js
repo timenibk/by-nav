@@ -1,4 +1,4 @@
-function getQueryVariable(variable)
+function getQueryVariable(variable) //查找url参数
 {
        var query = window.location.search.substring(1);
        var vars = query.split("&");
@@ -8,8 +8,44 @@ function getQueryVariable(variable)
        }
        return(false);
 }
+function replaceParamVal(url,paramName,replaceVal) { //替换url参数
+  var oUrl = url.toString();
+  var re=eval('/('+ paramName+'=)([^&]*)/gi');
+  var nUrl = oUrl.replace(re,paramName+'='+replaceVal);
+  return nUrl;
+}
 
-$(function(){ 
+function setCookie(cname,cvalue,exsecond) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exsecond*1000));
+  var expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(name) //读cookie
+{
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+ 
+    if(arr=document.cookie.match(reg))
+ 
+        return unescape(arr[2]);
+    else
+        return null;
+}
+
+function getArrayIndex(arr, obj) {//获取数组内元素下标
+  var i = arr.length;
+  while (i--) {
+      if (arr[i] === obj) {
+          return i;
+      }
+  }
+  return -1;
+}
+
+var f_Array="";
+
+$(function(){  
     $.getJSON("static/nav.json",function(data){ //获取数据并填充页面
       var strHtml = "";
       $.each(data,function(infoIndex,info){  
@@ -32,13 +68,14 @@ $(function(){
          $(".footer").before(navstr);//创建内容页
       }) 
       $("#navItem").append(strHtml);//创建左侧导航栏
-    }) 
-    
+    })   
 
     //渲染自定义模块
     if (getQueryVariable('p') != ""){
         $.getJSON(getQueryVariable('p'),function(data){ //获取自定义数据并填充页面
         var f = getQueryVariable('f')
+        fArray= data.map(item => item.filter); //fiter属性集合
+        f_Array =Array.from(  new Set(fArray)); //fiter属性去重      
         var strHtml = "";
         if(f != ""){
           var model = data.filter(function (e) { return e.filter == f; }); //筛选
@@ -63,6 +100,24 @@ $(function(){
             navstr = navtitle + navstr + '</div>';
             $(".about").after(navstr);//插入自定义内容
           })
+
+          // 快速刷新切换筛选词
+          last_time= getCookie("time@"+f);
+          console.log(last_time);
+          if(last_time != "" && last_time != null){
+            setCookie("time@"+f, "", -1);
+            href=window.location.href;
+            var findex = getArrayIndex(f_Array,f);
+            var indexto = findex+1;
+            if(indexto > f_Array.length-1){
+              indexto = 0;
+            } 
+            self.location.href=replaceParamVal(href,"f",f_Array[indexto]);
+          }
+          d= new Date();
+          ctime = d.getSeconds();
+          setCookie("time@"+f, ctime.toString(), 3);
+
         }
         else{
           $.each(data,function(infoIndex,info){
@@ -90,8 +145,8 @@ $(function(){
         
         $("#navItem").prepend(strHtml);//插入左侧自定义导航栏
       })
-
     }
+
     //導航欄滑動定位
     var href = "";
     var pos = "";
@@ -113,9 +168,7 @@ $(function(){
       var oMenu = document.getElementById('menu');
       var oBtn = oMenu.getElementsByTagName('a')[0];
       var oLeftBar = document.getElementById('leftBar');
-      console.log
       oBtn.onclick = function(){
-        console.log("00");
           if (oLeftBar.offsetLeft == 0) {
               oLeftBar.style.left = -249 + 'px';
           } else {
@@ -143,5 +196,5 @@ $(function(){
               scrollTop: '0px'
           }, 800);
       })
-
 });
+
