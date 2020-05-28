@@ -298,10 +298,10 @@
 		"desc": "在线设计工具，包含在线抠图",
 		"logo": "static/icons/gaoding.com.ico"
 	}, {
-		"name": "Smallpdf",
-		"href": "https://smallpdf.com/cn",
-		"desc": "专注于PDF格式互转、压缩等功能",
-		"logo": "http://chuangzaoshi.com/assets/images/D/smallpdf.png"
+		"name": "一个木函web版",
+		"href": "https://web.woobx.cn/",
+		"desc": "一些常用小工具",
+		"logo": "static/icons/woobx.cn.ico"
 	}, {
 		"name": "PDFcandy",
 		"href": "https://pdfcandy.com/",
