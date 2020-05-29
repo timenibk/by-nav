@@ -347,11 +347,6 @@
 		"href": "https://squoosh.app/",
 		"desc": "Google在线优化压缩图片(支持webp)",
 		"logo": "http://chuangzaoshi.com/assets/images/D/squoosh.png"
-	}, {
-		"name": "Photopea",
-		"href": "https://www.photopea.com/",
-		"desc": "在线打开PSD丨Sketch丨Gimp编辑器",
-		"logo": "http://chuangzaoshi.com/assets/images/D/photopea.png"
 	}]
 }, {
 	"_id": "linggan",
@@ -390,8 +385,13 @@
 	}, {
 		"name": "pixabay",
 		"href": "https://pixabay.com/",
-		"desc": "可商用图片站-支持中文",
+		"desc": "高清图片站",
 		"logo": "static/icons/pixabay.com.png"
+	}, {
+		"name": "unsplash",
+		"href": "https://unsplash.con/",
+		"desc": "高清图片站",
+		"logo": "static/icons/unsplash.com.ico"
 	}, {
 		"name": "pexels",
 		"href": "https://www.pexels.com/zh-cn/",

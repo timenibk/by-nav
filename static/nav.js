@@ -74,7 +74,15 @@ $(function(){
     if (getQueryVariable('p') != ""){
         $.getJSON(getQueryVariable('p'),function(data){ //获取自定义数据并填充页面
         var f = getQueryVariable('f')
-        fArray= data.map(item => item.filter); //fiter属性集合
+        //fArray= data.map(item => item.filter); //fiter属性集合
+        fArray= data.map(function (item) {  //fiter属性集合，兼容
+          return item.filter;
+        });
+        if(!Array.from){//from兼容IE
+          Array.from = function (el) {
+              return Array.apply(this, el);
+          }
+        } 
         f_Array =Array.from(  new Set(fArray)); //fiter属性去重      
         var strHtml = "";
         if(f != ""){
